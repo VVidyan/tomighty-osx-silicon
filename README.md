@@ -1,44 +1,16 @@
-Tomighty for Mac
-================
+Spent a few hours changing the tomighty application (mac) to work with apple-silicon. Works on Mac OS Sonoma 14 forward.
 
-Available for download at http://www.tomighty.org
+Most of the original work is kept: All credit to the original contributors. (https://github.com/tomighty/tomighty-osx).
+This also includes all relevant information for the app. Please read it for further details. 
 
-This repository contains the source code for the native OSX version of Tomighty.
-If you are looking for the source code of the multiplatform (Java) version, go to https://github.com/ccidral/tomighty
+Some deprecated commands have not been changed, only the critical issues were removed. These commands may be updated later. 
 
-Architecture
-============
+I wanted to continue using tomighty, so made this as a brief personal project, with some help of Gemini Flash 3.6. Compiled using XCode. 
 
-![](/docs/tomighty_architecture.png)
 
-Development Workflow
-====================
-
-We follow the development model presented by Vincent Driessen:
-
-http://nvie.com/posts/a-successful-git-branching-model/
-
-Discuss
-=======
-
-For development related discussions, please subscribe to:
-
-https://groups.google.com/forum/#!forum/tomighty-developers
 
 License
 =======
 
 Tomighty for Mac is licensed under the terms of the Apache License 2.0. Read it here: https://www.apache.org/licenses/LICENSE-2.0.html
 
-Contributors
-============
-Thank you to all the contributors to Tomighty OSX:
-
-* Célio Cidral Jr. (@ccidral)
-* Jindřich Doležy (@dzindra)
-* Luke Wong (@hausofwong)
-* Matthew Andersen (@mattandersen)
-* Devon Tucker (@dvntucker)
-* Misha Tavkhelidze (@mtavkhelidze)
-
-Please let us know if you feel your name is missing from this list (and feel free to update it with your PRs).
